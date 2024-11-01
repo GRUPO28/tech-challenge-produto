@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tc-produto-deployment
+  labels:
+    app: tc-produto-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tc-produto-deployment
+  template:
+    metadata:
+      labels:
+        app: tc-produto-deployment
+    spec:
+      containers:
+      - name: tc-produto-deployment
+        image: grupo28/tc-produto:latest
+        ports:
+        - containerPort: 5189
+        envFrom:
+        - secretRef:
+            name: tc-produto-secret
+        resources:
+          requests:
+            cpu: "100m" # 100m equivalent to 0.1 CPU
+            memory: "256Mi" # 256 megabytes
+          limits:
+            cpu: "500m" # 500m equivalent to 0.5 CPU
+            memory: "512Mi" # 512 megabytes
+        livenessProbe:
+          httpGet:
+            path: '/health'
+            port: 5189
+          initialDelaySeconds: 20
+          periodSeconds: 3
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: '/health'
+            port: 5189
+          initialDelaySeconds: 20
+          periodSeconds: 3
+          failureThreshold: 3
