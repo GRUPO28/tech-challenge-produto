@@ -39,7 +39,7 @@ jobs:
       - name: Substitute secrets in apptc-secret
         working-directory: k8s
         run: |
-          sed -i "s|\${MONGO_DB_CONNECTION_STRING}|${MONGO_DB_CONNECTION_STRING}|g" apptc-secret.yaml
+          sed -i "s|\${MONGO_DB_CONNECTION_STRING}|${MONGO_DB_CONNECTION_STRING}|g" apptc-configmap.yaml
         env:
           MONGO_DB_CONNECTION_STRING: ${{ secrets.MONGO_DB_CONNECTION_STRING }}
 
