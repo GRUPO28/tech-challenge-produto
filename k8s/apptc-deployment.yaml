@@ -20,8 +20,8 @@ spec:
         ports:
         - containerPort: 5189
         envFrom:
-        - secretRef:
-            name: tc-produto-secret
+        - configMapRef:
+            name: tc-produto-configmap
         resources:
           requests:
             cpu: "100m" # 100m equivalent to 0.1 CPU
