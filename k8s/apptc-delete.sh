@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Delete secret
-kubectl delete -f apptc-secret.yaml
+kubectl delete -f apptc-configmap.yaml
 
 # Delete deployment
 kubectl delete -f apptc-deployment.yaml
