@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Apply secret
+# Apply configmap
 kubectl apply -f apptc-configmap.yaml
 
 # Apply deployment
