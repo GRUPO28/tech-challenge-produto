@@ -1,5 +1,4 @@
 ﻿using CadastroPedidos.Produto.Application.Abstractions;
-using ControlePedidos.Common.Entities;
 using ControlePedidos.Common.Exceptions;
 using ControlePedidos.Produto.Domain.Abstractions;
 using Entity = ControlePedidos.Produto.Domain.Entities;

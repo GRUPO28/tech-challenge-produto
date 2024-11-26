@@ -1,6 +1,5 @@
 ﻿using CadastroPedidos.Produto.Api;
 using CadastroPedidos.Produto.Application.Abstractions;
-using CadastroPedidos.Produto.Application.DTO;
 using CadastroPedidos.Produto.Application.UseCases.AtualizarProduto;
 using CadastroPedidos.Produto.Application.UseCases.DeletarProduto;
 using CadastroPedidos.Produto.Application.UseCases.GravarProduto;

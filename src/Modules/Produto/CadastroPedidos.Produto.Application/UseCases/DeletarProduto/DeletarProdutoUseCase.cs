@@ -1,11 +1,6 @@
 ﻿using CadastroPedidos.Produto.Application.Abstractions;
 using ControlePedidos.Common.Exceptions;
 using ControlePedidos.Produto.Domain.Abstractions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CadastroPedidos.Produto.Application.UseCases.DeletarProduto;
 
