@@ -1,5 +1,4 @@
 ﻿using CadastroPedidos.Produto.Application.UseCases.GravarProduto;
-using ControlePedidos.Common.Entities;
 using ControlePedidos.Produto.Domain.Abstractions;
 using ControlePedidos.Produto.Domain.Enums;
 using Moq;

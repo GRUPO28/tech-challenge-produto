@@ -38,6 +38,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CadastroPedidos.Produto.Api", "src\Modules\Produto\CadastroPedidos.Produto.Api\CadastroPedidos.Produto.Api.csproj", "{78162180-E504-4A64-B0FE-6DE9021C56E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlePedidosBDD", "ControlePedidosBDD\ControlePedidosBDD.csproj", "{F7EBE092-74F5-4209-B50A-F4646CC8E8A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{78162180-E504-4A64-B0FE-6DE9021C56E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78162180-E504-4A64-B0FE-6DE9021C56E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78162180-E504-4A64-B0FE-6DE9021C56E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EBE092-74F5-4209-B50A-F4646CC8E8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EBE092-74F5-4209-B50A-F4646CC8E8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EBE092-74F5-4209-B50A-F4646CC8E8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EBE092-74F5-4209-B50A-F4646CC8E8A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +95,7 @@ Global
 		{8D2B19B2-FC9B-4736-A25C-DC8ACC4EF052} = {DDA631F9-417D-4871-9376-FF44B447206F}
 		{2929DDDC-7E93-4719-BDF0-39120EF50256} = {8D2B19B2-FC9B-4736-A25C-DC8ACC4EF052}
 		{78162180-E504-4A64-B0FE-6DE9021C56E4} = {E6D4EAD0-B0FA-41E4-8F8A-BB2B6966BBFF}
+		{F7EBE092-74F5-4209-B50A-F4646CC8E8A4} = {246A34D1-ECEE-4A95-96DC-2E902A336568}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83CBB7B1-7D37-4E12-BF2B-60DB8028ED60}

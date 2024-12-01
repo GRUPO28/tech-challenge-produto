@@ -1,6 +1,5 @@
 ﻿using CadastroPedidos.Produto.Application.Abstractions;
 using ControlePedidos.Produto.Domain.Abstractions;
-using System.Collections.Generic;
 using Entity = ControlePedidos.Produto.Domain.Entities;
 
 namespace CadastroPedidos.Produto.Application.UseCases.GravarProduto;

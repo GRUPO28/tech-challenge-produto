@@ -1,13 +1,7 @@
-﻿using CadastroPedidos.Produto.Application.UseCases.GravarProduto;
-using CadastroPedidos.Produto.Application.UseCases.ObterProduto;
+﻿using CadastroPedidos.Produto.Application.UseCases.ObterProduto;
 using ControlePedidos.Produto.Domain.Abstractions;
 using ControlePedidos.Produto.Domain.Enums;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Entity = ControlePedidos.Produto.Domain.Entities;
 
 namespace ControlePedidos.Produto.Test.Unit.Application.UseCases;
